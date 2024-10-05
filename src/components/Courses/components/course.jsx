@@ -21,7 +21,7 @@ export default function Courses({ video, title }) {
     );
 }
 
-Courses.prototype = {
+Courses.propTypes = {
     video: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired
 }
