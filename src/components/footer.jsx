@@ -10,25 +10,25 @@ export default function Footer() {
                 <div className="footer-cards">
                     <h3>Main Sections</h3>
                     <div className="footer-card">
-                        <span><a href="/" className="footer-link" >Home</a></span>
+                        <span><Link to="/" className="footer-link" >Home</Link></span>
                     </div>
                     <div className="footer-card">
-                        <span><a href="/about-us" className="footer-link">About us</a></span>
+                        <span><Link to="/about-us" className="footer-link">About us</Link></span>
                     </div>
                     <div className="footer-card">
-                        <span><a href="/courses" className="footer-link">Courses</a></span>
+                        <span><Link to="/courses" className="footer-link">Courses</Link></span>
                     </div>
                 </div>
                 <div className="footer-cards">
                     <h3>Support & Contact</h3>
                     <div className="footer-card">
-                        <span><a href="/" className="footer-link" >FAQ</a></span>
+                        <span><Link to="/" className="footer-link" >FAQ</Link></span>
                     </div>
                     <div className="footer-card">
-                        <span><a href="/" className="footer-link">Support</a></span>
+                        <span><Link to="/" className="footer-link">Support</Link></span>
                     </div>
                     <div className="footer-card">
-                        <span><a href="/" className="footer-link">Contact Us</a></span>
+                        <span><Link to="/" className="footer-link">Contact Us</Link></span>
                     </div>
                 </div>
                 <div className="social-icons">
@@ -47,7 +47,7 @@ export default function Footer() {
 }
 
 /*
-    <a href="/" className="icons-links"><BsFacebook className="icon"/></a>
+    <a to="/" className="icons-links"><BsFacebook className="icon"/></a>
     <a href="/" className="icons-links right-icon"><BiLogoInstagramAlt className="icon"/></a>
     <a href="/" className="icons-links right-icon"><FaSquareXTwitter className="icon"/></a>
 */

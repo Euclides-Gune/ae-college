@@ -289,6 +289,20 @@ body {
   .navbar > ul > li {
     margin: 0px;
     padding: 10px;
+    border: 1px solid gray;
+    margin-right: 30px;
+  }
+
+  .navbar > ul > li:hover {
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 30px;
+    background-color: gray;
+  }
+
+  .navbar > ul > li > a:hover {
+    color: white;
   }
 
   .coures_body {
@@ -321,6 +335,14 @@ body {
 
   .about-us-box {
     margin-bottom: 100px;
+  }
+
+  .about-us-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    color: #919191;
   }
     
   .story {
