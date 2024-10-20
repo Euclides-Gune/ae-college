@@ -240,6 +240,10 @@ body {
   color: black;
 }
 
+.icons-area {
+  display: flex;
+}
+
 .icons-links {
   text-decoration: none;
   color: black;
@@ -262,6 +266,16 @@ body {
   font-size: 30px;
 }
 
+.menu {
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: gray;
+}
+
 @media only screen and (max-width: 600px) {
 
   body {
@@ -271,6 +285,10 @@ body {
   .header {
     margin-top: 50px;
     flex-direction: column;
+  }
+
+  .menu {
+    width: 100%;
   }
 
   .navbar {
@@ -289,7 +307,6 @@ body {
   .navbar > ul > li {
     margin: 0px;
     padding: 10px;
-    border: 1px solid gray;
     margin-right: 30px;
   }
 
@@ -437,7 +454,6 @@ body {
     margin: 10px;
     width: 80px;
   }
-  
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -449,6 +465,10 @@ body {
   .header {
     margin-top: 50px;
     flex-direction: row;
+  }
+
+  .menu {
+    font-size: 100px;
   }
 
   .nav_logo {

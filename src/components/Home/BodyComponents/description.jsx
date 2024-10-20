@@ -7,7 +7,7 @@ export default function Description() {
             <div className="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero illo eligendi quisquam unde ipsa eveniet harum assumenda, consequatur quae, sequi, odio est beatae eius quod a possimus reiciendis fugiat.
             </div>
-            <button className="access_button">ACESSE</button>
+            <button className="access_button">ACCESS</button>
         </div>
     );
 }

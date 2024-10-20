@@ -7,11 +7,11 @@ export default function CoursesBody() {
     return(
         <div className="coures_body">
             <div className="coures_title_area">
-                <h1 className="courses_title">Veja os nossos melhores cursos</h1>
+                <h1 className="courses_title">See our best courses</h1>
             </div>
-            <Courses video={football} title="Deixe de ser o Reserva"/>
-            <Courses video={art} title="Torne-se um Artista"/>
-            <Courses video={cooks} title="Torne-se um CHEF"/>
+            <Courses video={football} title="Stop being the Reserve"/>
+            <Courses video={art} title="Become an Artist"/>
+            <Courses video={cooks} title="Become a CHEF"/>
         </div>
     );
 }

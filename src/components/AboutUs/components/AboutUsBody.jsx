@@ -19,12 +19,12 @@ export default function AboutUsBody() {
                     </div>
                     <div className="story-telling-links">
                         <div className="links-box">
-                            <span className="link">Email: <Link className="links-anchor">ae-services@gmail.com</Link></span>
-                            <span className="link">   Instagram: <Link className="links-anchor">@AE-Services_institutue</Link></span>
+                            <span className="link"><b>Email:</b> <Link className="links-anchor">ae-services@gmail.com</Link></span>
+                            <span className="link"> <b>  Instagram: </b><Link className="links-anchor">@AE-Services_institutue</Link></span>
                         </div>
                         <div className="links-box">
-                            <span className="link">Facebook: <Link className="links-anchor">AE_Services_institute</Link></span>
-                            <span className="link">X-Twitter: <Link className="links-anchor">AE-Services_institute</Link></span>
+                            <span className="link"><b>Facebook:</b> <Link className="links-anchor">AE_Services_institute</Link></span>
+                            <span className="link"><b>X-Twitter: </b><Link className="links-anchor">AE-Services_institute</Link></span>
                         </div>
                     </div>
                 </div>
