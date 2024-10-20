@@ -62,7 +62,7 @@
 }
 
 .links-anchor:hover {
-    color: orange;
+    color: gray;
 }
 
 .story-image-box {
@@ -71,6 +71,5 @@
 
 .story-image {
     width: 400px;
-    /*border: 1px solid black;*/
     height: 370px;
 }
