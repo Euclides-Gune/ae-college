@@ -1,6 +1,7 @@
 import { BsFacebook } from "react-icons/bs";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return(
@@ -35,12 +36,18 @@ export default function Footer() {
                         <span className="follow-title">Follow Us</span>
                     </div>
                     <div className="icons-area">
-                        <a href="/" className="icons-links"><BsFacebook className="icon"/></a>
-                        <a href="/" className="icons-links right-icon"><BiLogoInstagramAlt className="icon"/></a>
-                        <a href="/" className="icons-links right-icon"><FaSquareXTwitter className="icon"/></a>
+                        <Link to='https://web.facebook.com/?_rdc=1&_rdr' className="icons-links" target="blank"><BsFacebook className="icon"/></Link>
+                        <Link to='https://www.instagram.com' target="blank" className="icons-links right-icon"><BiLogoInstagramAlt className="icon"/></Link>
+                        <Link to='https://x.com/?lang=pt' className="icons-links right-icon" target="blank"><FaSquareXTwitter className="icon"/></Link>
                     </div>
                 </div>
             </div>
         </div>
     );
 }
+
+/*
+    <a href="/" className="icons-links"><BsFacebook className="icon"/></a>
+    <a href="/" className="icons-links right-icon"><BiLogoInstagramAlt className="icon"/></a>
+    <a href="/" className="icons-links right-icon"><FaSquareXTwitter className="icon"/></a>
+*/

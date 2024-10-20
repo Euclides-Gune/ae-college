@@ -31,7 +31,7 @@ export default function CardSection() {
                     </div>
                 </div>
                 <div className="card-content">
-                    <h1 className="content-text">Developing <br /> your self </h1>
+                    <h1 className="content-text">Developing <br /> yourself </h1>
                 </div>
             </div>
             <div className="card">
@@ -41,7 +41,7 @@ export default function CardSection() {
                     </div>
                 </div>
                 <div className="card-content">
-                    <h1 className="content-text">Growing up <br /> your business </h1>
+                    <h1 className="content-text">Grow up <br /> your business </h1>
                 </div>
             </div>
         </div>
