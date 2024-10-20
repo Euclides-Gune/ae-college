@@ -276,13 +276,14 @@ body {
   .navbar {
     margin: 20px 0px 0px;
     width: 100%;
-    text-align: center;
   }
 
   .navbar > ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    margin: auto;
+    text-align: center;
   }
 
   .navbar > ul > li {
@@ -326,7 +327,7 @@ body {
       display: flex;
       flex-direction: column;
       height: 370px;
-      margin-bottom: 700px;
+      margin-bottom: 800px;
   }
 
   .story-telling {

@@ -13,7 +13,7 @@ export default function Footer() {
                         <span><a href="/" className="footer-link" >Home</a></span>
                     </div>
                     <div className="footer-card">
-                        <span><a href="/" className="footer-link">About us</a></span>
+                        <span><a href="/about-us" className="footer-link">About us</a></span>
                     </div>
                     <div className="footer-card">
                         <span><a href="/courses" className="footer-link">Courses</a></span>
