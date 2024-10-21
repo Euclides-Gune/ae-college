@@ -283,8 +283,10 @@ body {
   }
 
   .header {
-    margin-top: 50px;
     flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
   }
 
   .menu {
@@ -372,16 +374,24 @@ body {
   .story-telling {
       width: 80%;
       margin: auto;
+      margin-bottom: 50px;
   }
 
   .story-image-box {
     width: 80%;
     margin: auto;
+
   }
 
   .story-image {
     width: 100%;
-    height: 370px;
+    height: 80%;
+  }
+
+  .links-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .body {
@@ -393,6 +403,12 @@ body {
   .description-group {
     width: 90%;
     margin: auto;
+  }
+
+  .welcome {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
   }
 
   .image_box {
@@ -429,6 +445,7 @@ body {
   }
   
   .footer {
+    margin-top: 50px;
     width: 100%;
     padding-top: 50px;
     background-color: #3d80a7;
@@ -438,9 +455,8 @@ body {
   }
   
   .footer-card-section {
-    width: 95%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
     margin: auto;
   }
   
@@ -453,6 +469,16 @@ body {
   .footer-card {
     margin: 10px;
     width: 80px;
+  }
+
+  .icons-area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-icon {
+    margin-left: 0%;
   }
 }
 

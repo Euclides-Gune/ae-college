@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 export default function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-    console.log(screenWidth);
 
     useEffect(() => {
         const changeWidth = () => {

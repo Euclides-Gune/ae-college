@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div className="social-icons">
                     <div className="follow-section">
-                        <span className="follow-title">Follow Us</span>
+                        <span className="follow-title"><b>Follow Us</b></span>
                     </div>
                     <div className="icons-area">
                         <Link to='https://web.facebook.com/?_rdc=1&_rdr' className="icons-links" target="blank"><BsFacebook className="icon"/></Link>
